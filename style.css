@@ -42,10 +42,6 @@ nav ul li a:active{
 .h1{
     width: 50%;
 }
-.h1 h1{
-    font-size: 40px;
-}
-
 .section-top-right{
     width: 409.8px;
     margin-left: 20px;
@@ -67,11 +63,20 @@ nav ul li a:active{
 .section-top-right p{
     color: hsl(233, 8%, 79%);
     font-weight: 400;
+    padding-bottom: 0;
 }
 .web-future{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+button{
+    background-color:hsl(5, 85%, 63%);
+    padding: 10px;
+}
+.article a{
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
 }
 
 /*element du bas*/
@@ -108,3 +113,5 @@ nav ul li a:active{
 .d-right .img img{
     width: 80%;
 }
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
