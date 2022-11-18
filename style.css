@@ -1,0 +1,110 @@
+p{
+    font-size: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+nav{
+    width: 40%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+nav ul li a:active{
+    color: hsl(5, 85%, 63%);
+}
+
+.section-top{
+    display: flex;
+    flex-direction: row;
+}
+.section-top-left{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.section-top-left img{
+    width: 100%;
+}
+.h1{
+    width: 50%;
+}
+.h1 h1{
+    font-size: 40px;
+}
+
+.section-top-right{
+    width: 409.8px;
+    margin-left: 20px;
+    background-color: hsl(240, 100%, 5%);
+}
+.top-right-article{
+    width: 80%;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.section-top-right h1{
+    color: hsl(35, 77%, 62%);
+    font-weight: 800;
+}
+.section-top-right h2{
+    color: hsl(36, 100%, 99%);
+    font-weight: 700;
+}
+.section-top-right p{
+    color: hsl(233, 8%, 79%);
+    font-weight: 400;
+}
+.web-future{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*element du bas*/
+.section-bottom{
+    display: flex;
+    flex-direction: row;
+}
+.bottom-left{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-top: 60px;
+}
+.d-left{
+    display: flex;
+    flex-direction: row;
+}
+.d-left .text{
+    width: 40%;
+}
+.d-left .img img{
+    width: 60%
+}
+
+.bottom-right{
+    width: 409.8px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.d-right{
+    display: flex;
+    flex-direction: row;
+}
+.d-right .img img{
+    width: 80%;
+}
