@@ -67,8 +67,10 @@ nav ul li a:active{
 .section-top-right h1{
     color: hsl(35, 77%, 62%);
     font-weight: 800;
+    margin-left: 25px;
 }
 .section-top-right h2{
+    margin-left: 25px;
     color: hsl(36, 100%, 99%);
     font-weight: 700;
 }
@@ -97,6 +99,9 @@ button{
     text-decoration: none;
     color: hsl(36, 100%, 99%);
 }
+.d-left p , .d-right p , .article p {
+    color:hsl(236, 13%, 42%);
+}
 
 /*element du bas*/
 .section-bottom{
@@ -115,8 +120,13 @@ button{
     width: 50%;
     margin-right: 25px;
 }
+hr{
+    margin-left: 25px;
+}
 .d-left h2, .d-right h2{
     margin-top: 0;
+    color: hsl(233, 8%, 79%);
+
 }
 .d-left h2, h3, p, .d-right h2{
     margin-left: 25px;
