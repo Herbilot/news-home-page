@@ -1,3 +1,7 @@
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+}
 p{
     font-size: 15px;
 }
@@ -7,6 +11,8 @@ header{
     justify-content: space-between;
     padding-bottom: 30px;
     padding-top: 10px;
+    width: 1024.5px;
+
 }
 nav{
     width: 40%;
@@ -42,15 +48,20 @@ nav ul li a:active{
 .h1{
     width: 50%;
 }
+.h1 h1{
+    width: 100%;
+    margin: 0;
+    font-size: 40px;
+}
 .section-top-right{
-    width: 409.8px;
+    width: 341.5px;
     margin-left: 20px;
     background-color: hsl(240, 100%, 5%);
 }
 .top-right-article{
-    width: 80%;
-    margin-left: 40px;
-    margin-right: 20px;
+    width: 90%;
+    font-size: 15px;
+    
 }
 .section-top-right h1{
     color: hsl(35, 77%, 62%);
@@ -69,6 +80,13 @@ nav ul li a:active{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
+}
+.article{
+    width: 50%;
+}
+.article p{
+    margin-left: 0;
 }
 button{
     background-color:hsl(5, 85%, 63%);
@@ -93,16 +111,28 @@ button{
 .d-left{
     display: flex;
     flex-direction: row;
+    width: 50%;
+    margin-right: 25px;
 }
+.d-left h2, .d-right h2{
+    margin-top: 0;
+}
+.d-left h2, h3, p, .d-right h2{
+    margin-left: 25px;
+}
+
 .d-left .text{
-    width: 40%;
+    width: 70%;
+}
+.d-left .img{
+    width: 30%;
 }
 .d-left .img img{
-    width: 60%
+    width: 100%
 }
 
 .bottom-right{
-    width: 409.8px;
+    width: 341.5px;
     margin-left: 20px;
     margin-top: 60px;
 }
@@ -110,8 +140,11 @@ button{
     display: flex;
     flex-direction: row;
 }
+.d-right .img{
+    width: 40%;
+}
 .d-right .img img{
-    width: 80%;
+    width: 100%;
 }
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
