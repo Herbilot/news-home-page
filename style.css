@@ -1,6 +1,7 @@
 body{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 0 150px 0 150px;
+    padding-top: 50px;
+    
 }
 p{
     font-size: 15px;
